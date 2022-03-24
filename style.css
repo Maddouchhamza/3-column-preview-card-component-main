@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca:wght@100;200;300;400&family=Outfit:wght@100;300;400;600&family=Red+Hat+Display:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&family=Lexend+Deca:wght@100;200;300;400&family=Outfit:wght@100;300;400;600&family=Red+Hat+Display:wght@300;400;500;700;900&display=swap');
+
+body{
+    background-color: hsl(0, 0%, 95%);
+    width: 100vw;
+    height: 140vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+}
+.card{
+    width: 235px;
+    height: 350px;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#first{
+    background-color: hsl(31, 77%, 52%);
+    color:hsl(31, 77%, 52%);
+    border-radius: 7px 7px 0px 0px;
+}
+#second{
+    background-color: hsl(184, 100%, 22%);
+    color:hsl(184, 100%, 22%);
+}
+#tird{
+    background-color: hsl(179, 100%, 13%);
+    color:hsl(179, 100%, 13%);
+    border-radius: 0px 0px 7px 7px;
+}
+img{
+    width: 43px;
+}
+.title{
+    color: hsl(0, 0%, 95%);
+    font-family: "Big Shoulders Display" , sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+.description{
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 23px;
+}
+.button{
+    background-color: hsl(0, 0%, 95%);
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    width: fit-content;
+    border-radius: 23px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.button:hover{
+    background-color: inherit;
+    color: hsl(0, 0%, 95%);
+    border: solid hsl(0, 0%, 95%) 2px;
+}
+
+@media screen and (min-width: 1024px){
+    body{
+        width: 100vw;
+        height: 100vh;
+    }
+    section{
+        display: flex;
+    }
+    #first{
+        border-radius: 7px 0px 0px 7px;
+    }
+    #tird{
+        background-color: hsl(179, 100%, 13%);
+        color:hsl(179, 100%, 13%);
+        border-radius: 0px 7px 7px 0px;
+    }
+}
